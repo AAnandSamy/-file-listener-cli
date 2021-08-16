@@ -20,8 +20,8 @@ object ParseCmdOp2Json {
   /**
    * This method is used parse the HDFS command line outputs to JSON format and also finding the latest file offset date time
    *
-   * @param op1
-   * @param path
+   * @param op1 command line outputs
+   * @param path HDFS path
    * @return JSON
    */
   def processCmdOupt2Json(op1: String, path: String): JSONObject = {
