@@ -3,11 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.org.hdfs.file.listener</groupId>
     <artifactId>listener-cli</artifactId>
     <version>1.0.2</version>
-    <name>Risk Analytics : HDFS events</name>
+    <name>HDFS events</name>
 
     <properties>
         <jdk.version>1.8</jdk.version>
@@ -28,22 +27,12 @@
 
 
     </properties>
-
-
-
-
     <dependencies>
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
             <version>${scala.version}</version>
         </dependency>
-      <!--  <dependency>
-            <groupId>net.openhft</groupId>
-            <artifactId>chronicle-map</artifactId>
-            <version>3.17.8</version>
-        </dependency>-->
-        <!-- https://mvnrepository.com/artifact/org.json/json -->
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
