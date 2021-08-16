@@ -1,0 +1,2 @@
+# Configure Git to default  unix (LF)line endings
+* text=auto eol=lf
